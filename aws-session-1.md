@@ -78,11 +78,23 @@ Advantages -
 - - Security Group - Add rule, allow HTTP, Custom, 0.0.0.0/0
 
 - Actions > Security > Get Window Password > Upload .pem file > Decrypt password > password -  iBO0K0fKZH9I3Ge1EA%V.pyXAa*-%b!X
-- Select instance > connect > RDP Client > download remote desktop file ..... put password .... 
+- Select instance > connect > RDP Client (port 3389) > download remote desktop file ..... put password .... 
 
 - Server Manager > Select Server roles > IIS > next ... > 
 
 The above process is manual.
 - EC2 User Data.
 - Execute your script  powershell script
+
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connecting_to_windows_instance.html
+------
+
+
+https://www.putty.org/
+
+- launch new instance with linux - use ppk new 
+- port 22
+- ec2-user
+- yum install httpd -y #(apache web server)
 
